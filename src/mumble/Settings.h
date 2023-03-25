@@ -394,7 +394,7 @@ struct Settings {
 	/// Name of the theme to use. @see Themes
 	QString themeName = QStringLiteral("Mumble");
 	/// Name of the style to use from theme. @see Themes
-	QString themeStyleName = QStringLiteral("Lite");
+	QString themeStyleName = QStringLiteral("Dark");
 
 	QByteArray qbaMainWindowGeometry     = {};
 	QByteArray qbaMainWindowState        = {};
@@ -402,7 +402,7 @@ struct Settings {
 	QByteArray qbaMinimalViewState       = {};
 	QByteArray qbaHeaderState            = {};
 	QByteArray qbaConfigGeometry         = {};
-	WindowLayout wlWindowLayout          = LayoutClassic;
+	WindowLayout wlWindowLayout          = LayoutStacked;
 	ChannelExpand ceExpand               = ChannelsWithUsers;
 	ChannelDrag ceChannelDrag            = Ask;
 	ChannelDrag ceUserDrag               = Move;
